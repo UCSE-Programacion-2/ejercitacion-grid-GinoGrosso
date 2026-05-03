@@ -57,3 +57,21 @@ img {
     grid-column: 1;
     grid-row: 2;
 }
+
+
+/* tablet */
+
+@media (min-width:768px) {
+    .contenedor {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/* desktop */
+
+@media (min-width:1024px) {
+    .contenedor {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
